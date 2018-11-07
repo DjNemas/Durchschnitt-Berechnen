@@ -42,7 +42,7 @@ namespace Durchschnitt_berechnen
 
             } while (note != -1);
 
-            durchschnitt = noteGesamt / schüler;
+            durchschnitt = (float)noteGesamt / (float)schüler;
             Console.WriteLine($"Der durchschnitt von den {schüler} Schülern beträgt {durchschnitt}");
             Console.WriteLine("\nZum beenden des Programmes bitte eine Taste drücken.");
             Console.ReadKey();
